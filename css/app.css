@@ -1,0 +1,203 @@
+body, html{
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	text-align: center !important;
+	font-size: 22px;
+	font-family: Helvetica, sans-serif !important;
+	position: relative;
+}
+
+@media only screen and (max-width: 992px) {
+  #myNav{
+  	background: #343A40 !important;
+  }
+}
+
+#myNav{
+	padding: 0;
+	transition: all 0.5s ease-in;
+}	
+
+#myNav div div ul li a{
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	font-size: 22px;
+}
+
+#myNav div div ul li a:hover{
+	color: lightgreen;
+}
+
+#navbarTogglerDemo01{
+	transition: all 0.5s ease;
+}
+
+#navbarTogglerDemo01 ul li a{
+	transition: all 0.5s ease;
+}
+
+.logo{
+	font-family: 'Sacramento', cursive;
+	text-decoration: none !important;
+	font-weight: bolder;
+	font-size: 40px !important;
+	color: lightgreen !important;
+}
+
+.active{
+	color: lightgreen !important;
+}
+
+header{
+	color: white;
+	background-image: url('../images/image3.jpg');
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex !important;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
+
+div.banner{
+	font-family: 'Nunito', sans-serif;
+}
+
+div.banner h1{
+	font-weight: bolder;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-size: 70px;
+}
+
+div.banner h2{
+	font-size: 30px;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+div.banner button{
+	background: lightblue;
+	padding: 15px 15%;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 10px;
+	font-size: 18px;
+	color: black;
+	border: none;
+	transition: all 0.5s ease;
+}
+
+div.banner button:hover{
+	color: black;
+	background-color: white;
+}
+
+section{
+	background: #e3e3e3;
+	padding: 80px 0;
+}
+
+#about p{
+	font-weight: lighter;
+	color: #333;
+}
+
+div.skills{
+	margin-right:10px;
+	z-index: -10;
+	text-align: center;
+}
+
+#sass{
+	color: #CD6799;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+#sass:hover{
+	color: #333;
+	transform: scale(1.2)
+}
+
+#material{
+	transition: all 0.5s ease;
+	cursor: pointer;
+	width: 157px;
+	height: 126px;
+}
+
+#material:hover{
+	transform: scale(1.2);
+}
+
+#react{
+	transition: all 0.5s ease;
+	cursor: pointer;
+	width: 157px;
+	height: 126px;
+}
+
+#react:hover{
+	transform: scale(1.2);
+}
+
+#sass{
+	transition: all 0.5s ease;
+	cursor: pointer;
+	width: 157px;
+	height: 126px;
+}
+
+#sass:hover{
+	transform: scale(1.2);
+}
+
+footer {
+	background: #333;
+	color: white;
+	text-align: left;
+}
+
+#copy{
+	padding: 10px 0;
+}
+
+#portfolio{
+	text-align: left;
+}
+
+#about{
+	text-align: left;
+	background-color: white;
+}
+
+#contact{
+	text-align: left;
+	background-color: white;
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+	font-size: 14px;
+}
+
+.social{
+	display: inline-block;
+	float: right;
+}
+
+.social a {
+	margin: 0 10px;
+	color: white;
+	transition: all 0.5s ease;
+}
+
+.social a:hover{
+	color: #cdcdcd;
+}
